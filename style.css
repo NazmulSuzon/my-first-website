@@ -1,0 +1,107 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.text-color{
+    color: tomato;
+}
+
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 20px;
+    display:inline-block;
+    margin-top: 20px;
+}
+.text-box{
+    /* border: 1px solid; */
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.text-box h1{
+    font-size: 2.5rem;
+}
+.align-center{
+    text-align: center;
+}
+.image-border{
+    border-radius: 20px;
+}
+.food-title-box{
+    /* border: 1px solid; */
+    text-align: center;
+    margin: 80px 0px 30px 0px;
+}
+.food-image-box{
+    /* border: 1px solid; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* margin:15px; */
+}
+.single-image-box img{
+    height:360px;
+    width:320px;
+}
+.single-image-box{
+    margin:22px;
+}
+.about-text-box{
+    /* border: 1px solid; */
+    margin-top: 15%;
+}
+.footer-tag{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+
+}
+.social-icon{
+    text-align: center;
+}
+
+.social-icon a{
+    font-size:23px;
+    text-decoration: none;
+    margin:5px;
+}
+.contact-section{
+    
+    margin-bottom: 20px;
+}
+.contact-inputs {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin:auto;
+}
+.contact-section h1{
+text-align: center;
+}
+.form-item{
+    margin: 6px 0px 6px 0px;
+    padding: 13px;
+}
+.submit-btn{
+    width: 20%;
+    margin:10px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: wheat;
+    border: none;
+}
