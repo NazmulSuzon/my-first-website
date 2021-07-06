@@ -9,13 +9,15 @@ body{
 
 .container{
     display: flex;
+    
+       
 }
-.half-width{
+.section-width{
     width: 50%;
     padding-left: 5%;
 }
-.half-width img{
-    width: 80%;
+.section-width img{
+    width: 70%;
 }
 .header-background-img{
     background-image: url(images/shapes/Frame\ 57.jpg);
@@ -23,12 +25,7 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
 }
-.second-background-img{
-    background-image: url(images/shapes/Frame\ 58.jpg);
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-}
+
 .order-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -53,17 +50,14 @@ body{
     border-radius: 20px;
 }
 .food-title-box{
-    /* border: 1px solid; */
     text-align: center;
     margin: 80px 0px 30px 0px;
 }
 .food-image-box{
-    /* border: 1px solid; */
     display:flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    /* margin:15px; */
 }
 .single-image-box img{
     height:360px;
@@ -73,8 +67,9 @@ body{
     margin:22px;
 }
 .about-text-box{
-    /* border: 1px solid; */
-    margin-top: 15%;
+    /* margin-top: 15%; */
+    width: 50%;
+    margin-left: 15%;
 }
 .footer-tag{
     background-color: black;
@@ -116,4 +111,18 @@ text-align: center;
     background-color: black;
     color: wheat;
     border: none;
+}
+.about-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.about-image-box img{
+    /* border: 1px solid; */
+    width: 450px;
+    margin-left: 25%;
 }
